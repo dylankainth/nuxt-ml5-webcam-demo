@@ -44,7 +44,6 @@
               :style="
                 'width:' + Math.round(prediction.score * 100).toString() + '%'
               "
-              aria-valuenow="25"
               aria-valuemin="0"
               :aria-valuenow="Math.round(prediction.score * 100)"
               aria-valuemax="100"
@@ -59,7 +58,7 @@
         <h1 class="display-6 fw-bold">Details</h1>
         <p class="col-md-8 fs-5">
           <ul style="list-style: none">
-            <li><img src="https://ml5js.org/static/ml5_logo_purple-88e082b8dc81d8729f95bcc092db90c5.png" class="icon"></img>Based on <a href="https://ml5js.org/">ML5.JS</a> <a href="https://learn.ml5js.org/#/reference/sentiment?id=sentiment-movie-reviews-model-biography">Sentiment Analysis</a></li>
+            <li><img src="https://ml5js.org/static/ml5_logo_purple-88e082b8dc81d8729f95bcc092db90c5.png" class="icon">Based on <a href="https://ml5js.org/">ML5.JS</a> <a href="https://learn.ml5js.org/#/reference/sentiment?id=sentiment-movie-reviews-model-biography">Sentiment Analysis</a></li>
             <li><img src="https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png" class="icon">Uses <a href="https://github.com/tensorflow/tfjs-examples/tree/482226b15a757f39871038f35b3b8aad7729e594/sentiment">Tensorflow.js model</a> from <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/2560px-IMDB_Logo_2016.svg.png" class="icon"> <a href="imdb.com">IMDB</a></li>
             <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" class="icon"> Made beautiful using <a href="https://getbootstrap.com/">Bootstrap</a></li>
             <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/555px-Vue.js_Logo_2.svg.png" class="icon">Uses <a href="https://vuejs.org/">Vue.js</a></li>
