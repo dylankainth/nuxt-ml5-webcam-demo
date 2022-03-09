@@ -1,4 +1,7 @@
-# Nuxt Starter
+# ML5 Senitment Demo
+
+## Introduction
+A Nuxt site that demonstrates [ML5.js](https://ml5js.org/) sentiment analysis.
 
 ## Build Setup
 
