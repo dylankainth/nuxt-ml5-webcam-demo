@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'ML5js Sentiment Analysis',
+    title: 'ML5js Webcam Analysis',
     htmlAttrs: {
       lang: 'en',
     },
